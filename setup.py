@@ -56,6 +56,9 @@ setup(
     install_requires=[
         "six",
     ],
+    test_requires=[
+        "email_validator>=1.0",
+    ],
     extras_require={
         ':python_version=="2.6"': ['importlib'],
         ':python_version=="3.0"': ['importlib'],
